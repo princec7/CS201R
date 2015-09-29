@@ -25,10 +25,12 @@ $("#button").click(function(e){
   });
 });
 
+//Removes the suggestion text from the text field when the text field is clicked
 $('#isbn').one('click',(function(e){
     $('#isbn').html('');
 }));
 
+//Runs the same code as the submit button if "Enter" is pressed while the cursor is in the text box
 $('#isbn').keypress(function(e) {
     if (e.which == 13) {
         $(document).ready(function() { $('#isbn').blur() });
