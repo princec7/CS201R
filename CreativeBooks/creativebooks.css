@@ -1,0 +1,48 @@
+body{
+    text-align: center;
+    
+    background-color: #5bc0de;
+ 
+}
+
+.form-control {
+    width: 35%;
+    margin:  auto;
+    height: 20%;
+}
+
+h1{
+    font-family: Impact;
+    color: white;
+    background-color: #428bca;
+      width: 40%;
+        margin:  auto;
+}
+
+h2{
+    font-family: Impact;
+     color: white;
+}
+#bookInfo
+{
+    border-style: solid;
+    border-color: #428bca;
+    border-width: 5px;
+    width: 40%;
+    
+     margin:  auto;
+}
+#bookimage
+{
+    padding: 10px;
+}
+#button{
+       font-family: Impact;
+       font-size: 20px;
+       margin: 10px;
+}
+
+.info{
+    background-color: white;
+    margin: 5%;
+}
