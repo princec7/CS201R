@@ -7,18 +7,14 @@
 
 <form ng-submit="todoAdd()">
 <input type    ="text" ng-model="todoPerson" size="40" placeholder="Name">
-<input type    ="text" ng-model="todoFather" size="40" placeholder="Father's Name">
-<input type    ="text" ng-model="todoMother" size="40" placeholder="Mother's Name">
 <input type    ="submit" value="Add New">
 </form>
 
 <br>
 
 <div ng-repeat="x in todoList">
-    <input type="checkbox" ng-model="x.done"> <span ng-bind="x.todoText"></span>
+    <span ng-bind="x.todoText"></span>
 </div>
-
-<p><button ng-click="remove()">Remove marked</button></p>
 
 <script src="Lab3.js"></script>
 
